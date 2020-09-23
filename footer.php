@@ -10,7 +10,7 @@
  */
 
 ?>
-    </div><!-- close main container --> 
+<div class="container-xl">
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'on-reading' ) ); ?>">
@@ -29,6 +29,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>
