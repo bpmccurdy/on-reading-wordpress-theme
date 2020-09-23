@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<div class="container-fluid">
+<div class="container-fluid m-0 p-0">
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide show-neighbors" data-ride="carousel">
 
