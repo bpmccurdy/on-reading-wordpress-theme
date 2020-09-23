@@ -1,0 +1,146 @@
+/*
+Theme Name: On Reading
+Theme URI: https://theme.onreading.blog
+Author: Assistant to The Fun Size Reader
+Author URI: https://instagram.com/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: on-reading
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+On Reading is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* https://codex.wordpress.org/Styling_Images_in_Posts_and_Pages */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; margin:0 0 1em 1em}
+.alignleft {float:left; margin:0 1em 1em 0}
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+.wp-block-embed.alignright {
+	height:auto;
+	width: auto;
+	max-width: inherit;
+}
+
+
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+/* Accessibility
+--------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+
+
+
+
+
+/**
+ * This makes the Courosel show the preview of the next item
+ * 
+ */
+.show-neighbors {
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.carousel-control-prev {
+  margin-left: 10%;
+}
+
+.carousel-control-next {
+  margin-right: 10%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  z-index: 11;
+  /* .carousel-caption has z-index 10 */
+}
+
+.carousel-inner {
+  width: 240%;
+   left: -70%; 
+}
+
+.carousel-item-next:not(.carousel-item-left),
+.carousel-item-right.active {
+  -webkit-transform: translate3d(33.333333%, 0, 0);
+  transform: translate3d(33.333333%, 0, 0);
+}
+
+.carousel-item-prev:not(.carousel-item-right),
+.carousel-item-left.active {
+  -webkit-transform: translate3d(-33.333333%, 0, 0);
+  transform: translate3d(-33.33333%, 0, 0);
+}
+
+.item__third {
+  float: left;
+  position: relative;
+  /* captions can now be added */
+  width: 33.33333333%;
+}
