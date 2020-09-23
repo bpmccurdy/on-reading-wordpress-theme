@@ -1,7 +1,7 @@
 /**
  * makes the carousel show the edges of the previous and next item
  */
- 
+(function ($) {
 $('.carousel-item', '.show-neighbors').each(function(){
   var next = $(this).next();
   if (! next.length) {
@@ -15,4 +15,5 @@ $('.carousel-item', '.show-neighbors').each(function(){
   }
   prev.children(':nth-last-child(2)').clone().prependTo($(this));
 });
+}(jQuery));
 		
