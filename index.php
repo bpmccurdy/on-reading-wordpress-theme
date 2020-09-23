@@ -15,10 +15,6 @@
 get_header();
 ?>
 <div class="container-fluid">
-<div id="slider" class="row">
-	<div class="col-12">
-		
-		
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide show-neighbors" data-ride="carousel">
 
@@ -69,16 +65,6 @@ get_header();
 
   </div>
 </div>
-	
-		
-		
-		
-		
-	</div>
-	
-	
-	
-</div><!-- end slider -->
 </div>
 
 <div class="container-xl">
