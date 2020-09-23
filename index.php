@@ -14,6 +14,7 @@
 
 get_header();
 ?>
+<div class="container-fluid">
 <div id="slider" class="row">
 	<div class="col-12">
 		
@@ -78,6 +79,9 @@ get_header();
 	
 	
 </div><!-- end slider -->
+</div>
+
+<div class="container-xl">
 
 <div class="row">
 	<div class="col-8">
@@ -125,6 +129,7 @@ get_header();
 	<div class="col-4">
 		<?php get_sidebar(); ?>
 	</div>
+</div>
 </div>
 
 
