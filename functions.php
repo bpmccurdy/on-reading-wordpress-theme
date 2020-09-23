@@ -1023,3 +1023,17 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 	}
 
 endif;
+
+
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/customizer.php';
+
+/**
+ * Load Jetpack compatibility file.
+ */
+if ( defined( 'JETPACK__VERSION' ) ) {
+	require get_template_directory() . '/jetpack.php';
+}
