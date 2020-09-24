@@ -14,17 +14,8 @@
 
 get_header();
 ?>
-<div class="container-fluid m-0 p-0">
-<div class="bd-example">
-  <div id="carouselExampleCaptions" class="carousel slide show-neighbors" data-ride="carousel">
+<div class="container-fluid m-0 p-0 slider">
 
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-
-    <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="item__third">
           <img src="//placehold.it/1920x1080/c69/f9c/?text=wow" class="d-block w-100" alt="">
@@ -54,17 +45,6 @@ get_header();
       </div>
     </div>
 
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-
-  </div>
-</div>
 </div>
 
 <div class="container-xl">
