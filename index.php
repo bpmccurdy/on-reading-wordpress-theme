@@ -29,7 +29,7 @@ get_header();
         <div class="item__third">
           <img src="//placehold.it/1920x1080/c69/f9c/?text=wow" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
+            <h5>First slide label WOW</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
