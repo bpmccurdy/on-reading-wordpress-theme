@@ -25,6 +25,21 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'on-reading' ), 'on-reading', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
 		</div><!-- .site-info -->
+		<div class="d-block d-sm-none">
+			XS
+		</div>
+		<div class="d-none d-sm-block d-md-none">
+			SM
+		</div>
+		<div class="d-none d-md-block d-lg-none">
+			MD
+		</div>
+		<div class="d-none d-lg-block d-xl-none">
+			LG
+		</div>
+		<div class="d-none d-xl-block">
+			XL
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
