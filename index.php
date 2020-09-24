@@ -16,7 +16,6 @@ get_header();
 ?>
 <div class="container-fluid m-0 p-0 slider">
 
-      <div class="carousel-item active">
         <div class="item__third">
           <img src="//placehold.it/1920x1080/c69/f9c/?text=wow" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
@@ -24,8 +23,7 @@ get_header();
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
-      </div>
-      <div class="carousel-item">
+
         <div class="item__third">
           <img src="//placehold.it/1920x1080/9c6/cf9/?text=2" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
@@ -33,17 +31,14 @@ get_header();
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-      </div>
-      <div class="carousel-item">
+
         <div class="item__third">
           <img src="//placehold.it/1920x1080/69c/9cf/?text=3" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </div>
-        </div>
-      </div>
-    </div>
+    	</div>
 
 </div>
 
