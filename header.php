@@ -25,6 +25,8 @@
 
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
+		
+		
 	<?php if ( has_nav_menu( 'primary' ) ) { ?>
 
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'on-reading' ); ?></a>
@@ -104,10 +106,34 @@
 		</div>
 	</nav>
 	<?php } ?>
+	
+		
+	<?php if ( has_nav_menu( 'combined' ) ) { ?>
+	<nav class="navbar navbar-combined navbar-fixed-to navbar-expand-md navbar-dark bg-primary">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#on-reading-combined-nav" aria-controls="on-reading-combined-nav" aria-expanded="false" aria-label="Toggle Combined Navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="container-xl">
+		 <?php
+			wp_nav_menu( array(
+				'theme_location'    => 'combined',
+				'depth'             => 2,
+				'container'         => 'div',
+				'container_class'   => 'collapse navbar-collapse',
+				'container_id'      => 'on-reading-combined-nav',
+				'menu_class'        => 'navbar-nav d-flex justify-content-around w-100',
+				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+				'walker'            => new WP_Bootstrap_Navwalker(),
+			) );
+        ?>
+		</div>
+	</nav>
 		
 		
 		
 		
+		
+	<?php } ?>	
 		
 		
 		
