@@ -201,11 +201,11 @@ function on_reading_scripts() {
 	
 	
 	
-	wp_enqueue_script( 'bootstrap-script', 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js', array('jquery'), ON_READING_VERSION, true);
+	wp_enqueue_script( 'bootstrap-script', 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js', array('jquery'), ON_READING_VERSION, true );
 	
-	wp_enqueue_script('masonry-script', 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/masonry.min.js', array(), ON_READING_VERSION);
+	wp_enqueue_script( 'masonry-script', 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/masonry.min.js', array(), ON_READING_VERSION, true );
 	
-	wp_enqueue_script( 'slick-slider', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), ON_READING_VERSION);
+	wp_enqueue_script( 'slick-slider-script', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), ON_READING_VERSION, true );
 	
 	wp_enqueue_script( 'on-reading-script', get_template_directory_uri() . '/script.js', array('bootstrap-script'), ON_READING_VERSION, true );
 
