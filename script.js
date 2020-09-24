@@ -32,9 +32,9 @@ $('.carousel-item', '.show-neighbors').each(function(){
 		$(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
 			if ($(this).scrollTop() > 100) {
-				$('.navbar').fadeIn();
+				$('.navbar-combined').fadeIn();
 			} else {
-				$('.navbar').fadeOut();
+				$('.navbar-combined').fadeOut();
 			}
 		});
 
