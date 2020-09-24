@@ -73,6 +73,7 @@ if ( ! function_exists( 'on_reading_setup' ) ) :
 			array(
 				'primary' => esc_html__( 'Primary', 'on-reading' ),
 				'secondary' => esc_html__( 'Secondary', 'on-reading' ),
+				'combbined' => esc_html__( 'Combined', 'on-reading'),
 			)
 		);
 
