@@ -109,7 +109,7 @@
 	
 		
 	<?php if ( has_nav_menu( 'combined' ) ) { ?>
-	<nav class="navbar navbar-combined navbar-fixed-top navbar-expand-md navbar-dark bg-primary">
+	<nav class="navbar navbar-combined fixed-top navbar-expand-md navbar-dark bg-primary">
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#on-reading-combined-nav" aria-controls="on-reading-combined-nav" aria-expanded="false" aria-label="Toggle Combined Navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
